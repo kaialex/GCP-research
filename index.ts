@@ -32,4 +32,4 @@ const getAudio = async () => {
   fs.writeFileSync(outputFile, audioContentBuffer);
 };
 
-// getAudio();
+getAudio();
